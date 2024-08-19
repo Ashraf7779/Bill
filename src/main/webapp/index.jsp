@@ -23,7 +23,7 @@
       <header>
           <h1>Electricity Bill Management System</h1>
       </header>
-      <form action="Bill1" method="post">
+      <form action="/src/main/java/Bill1.java" method="post">
             <label>Bill Number : </label>
             <input type="number" name="bill_number" size="30" required placeholder="Enter your Bill Number eg:(123)">
             <label>No of Units :  </label>
