@@ -50,7 +50,7 @@ public class Bill1 extends HttpServlet {
 		request.setAttribute("units",units);
 		request.setAttribute("bill",bill);
 		
-		request.getRequestDispatcher("result.jsp").forward(request, response);
+		request.getRequestDispatcher("result.html").forward(request, response);
 	}
 
 }
